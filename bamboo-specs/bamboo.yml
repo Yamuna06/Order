@@ -1,0 +1,11 @@
+---
+project: 
+  key: TEST
+  plan: 
+   key: maven_project
+   name: maven new project with bamboo-specs
+
+stages:
+ - jobs: 
+   - scripts: 
+       - echo: "Hello World"
